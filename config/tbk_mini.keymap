@@ -69,10 +69,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp LEFT_BRACKET  &kp Q        &kp W        &kp E            &kp R           &kp T    &kp Y            &kp U         &kp I             &kp O        &kp P           &kp RIGHT_BRACKET
-&kp ESCAPE        &hml LGUI A  &hml LALT S  &hml LCTRL D     &hml LSHFT F    &kp G    &kp H            &hmr RSHFT J  &hmr RCTRL K      &hmr RALT L  &hmr RGUI SEMI  &kp SQT
-&kp MINUS         &kp Z        &kp X        &kp C            &kp V           &kp B    &kp N            &kp M         &kp COMMA         &kp DOT      &kp FSLH        &kp EQUAL
-                                            &lt LOWER ENTER  &kp LEFT_SHIFT  &kp TAB  &lt 2 BACKSPACE  &lt 1 SPACE   &lt LOWER ESCAPE
+&kp LEFT_BRACKET  &kp Q        &kp W        &kp E            &kp R           &kp T    &kp Y          &kp U         &kp I         &kp O        &kp P           &kp RIGHT_BRACKET
+&lt 2 ESCAPE      &hml LGUI A  &hml LALT S  &hml LCTRL D     &hml LSHFT F    &kp G    &kp H          &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMI  &kp SQT
+&kp MINUS         &kp Z        &kp X        &kp C            &kp V           &kp B    &kp N          &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp EQUAL
+                                            &lt LOWER ENTER  &kp LEFT_SHIFT  &kp TAB  &kp BACKSPACE  &kp SPACE     &lt 2 ESCAPE
             >;
         };
 
@@ -89,10 +89,10 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)    &kp LA(NUMBER_3)     &kp LA(NUMBER_4)  &kp LA(N5)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW    &kp DOWN            &kp UP_ARROW         &kp RIGHT         &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &trans            &trans      &trans
-                        &trans  &trans  &trans  &trans            &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)     &kp LA(NUMBER_3)    &kp LA(NUMBER_4)  &kp LA(N5)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW    &kp DOWN             &kp UP_ARROW        &kp RIGHT         &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &kp LG(RIGHT_BRACE)  &kp LG(LEFT_BRACE)  &trans            &trans      &trans
+                        &trans  &trans  &trans  &trans            &trans               &trans
             >;
         };
 
