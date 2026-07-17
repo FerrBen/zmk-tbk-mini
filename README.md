@@ -37,3 +37,9 @@ trim/rearrange `default_layer` row 3 to taste.
 
 Layers: Base / Lower (numbers, symbols, F-keys) / Raise (nav) / Adjust
 (Bluetooth + USB/BLE output, via Lower+Raise).
+
+On the **Adjust** layer, the bottom-row outer keys are reset controls, one per
+half (each only resets the side it's on):
+
+- outer corner (`Z`/`?` position) = `&bootloader` — enter UF2 flashing mode
+- next key in (`X`/`.` position) = `&sys_reset` — soft reboot
