@@ -6,7 +6,6 @@ url: https://github.com/vostoklabs/Sputnik-Handwired-Split-Corne-Keyboard-
 requires: []
 features:
     - keys
-    - display
     - split
 exposes: [main_keyboard]
 siblings:

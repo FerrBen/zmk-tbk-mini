@@ -1,7 +1,7 @@
 # TBK Mini
 
 ZMK config for **TBK Mini** — a hand-wired split Corne (3x6 + thumbs) running on
-two `nice_nano_v2` controllers with SSD1306 128x32 OLEDs.
+two `nice_nano_v2` controllers. Keys only: no OLED, no encoder.
 
 Pin/matrix wiring is taken from the
 [Sputnik Handwired Split Corne](https://github.com/vostoklabs/Sputnik-Handwired-Split-Corne-Keyboard-)
@@ -25,8 +25,6 @@ Or build locally / with the ZMK VS Code container.
 
 **Left**  — rows: `P1.00 P0.11 P1.04 P1.06`  cols: `P0.09 P0.10 P1.11 P1.13 P1.15 P0.02`
 **Right** — rows: `P0.29 P1.13 P0.10 P0.09`  cols: `P1.06 P1.04 P0.11 P1.00 P0.24 P0.22`
-
-OLED I2C: `P0.17` (SDA) / `P0.20` (SCL) — the standard `pro_micro_i2c`.
 
 ## Matrix / keymap notes
 
