@@ -28,12 +28,16 @@ Or build locally / with the ZMK VS Code container.
 
 ## Matrix / keymap notes
 
-The matrix is a full **4 rows x 6 columns per side** (48 positions total). Rows
-0-2 are the three alpha rows; **row 3 is the thumb row**. Because the physical
-thumb column wiring isn't documented in the source build, all 6 thumb columns per
-side are given bindings in `config/tbk_mini.keymap`, so every switch you actually
-wired will produce a key. Once you confirm which thumb columns are populated,
-trim/rearrange `default_layer` row 3 to taste.
+Standard **42-key Corne**: three 6-key alpha rows per side plus **3 thumbs per
+side** on the inner columns (transform `RC(3,3..5)` left, `RC(3,6..8)` right).
+
+Thumb keys (per side, inner→outer for left / outer→inner for right):
+
+- **Space** — layer-tap: tap = Space, hold = Lower
+- **Bksp**  — layer-tap: tap = Backspace, hold = Raise
+- **Del** (left) / **Enter** (right)
+
+Holding a Space (Lower) + a Bksp (Raise) thumb together reaches the Adjust layer.
 
 Layers: Base / Lower (numbers, symbols, F-keys) / Raise (nav) / Adjust
 (Bluetooth + USB/BLE output, via Lower+Raise).
