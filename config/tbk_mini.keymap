@@ -89,10 +89,10 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)     &kp LA(NUMBER_3)    &kp LA(NUMBER_4)  &kp LA(N5)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW    &kp DOWN             &kp UP_ARROW        &kp RIGHT         &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &kp LG(RIGHT_BRACE)  &kp LG(LEFT_BRACE)  &trans            &trans      &trans
-                        &trans  &trans  &trans  &trans            &trans               &trans
+&trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)     &kp LA(NUMBER_3)    &kp LA(NUMBER_4)  &kp LA(N5)  &trans
+&trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp LEFT_ARROW    &kp DOWN             &kp UP_ARROW        &kp RIGHT         &trans      &trans
+&trans  &trans  &trans  &trans  &trans                &trans                &trans            &kp LG(RIGHT_BRACE)  &kp LG(LEFT_BRACE)  &trans            &trans      &trans
+                        &trans  &trans                &trans                &trans            &trans               &trans
             >;
         };
 
